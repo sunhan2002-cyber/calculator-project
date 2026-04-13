@@ -25,3 +25,5 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(5, 0)
+def test_subtract_extra():
+    assert subtract(10, 4) == 6     
